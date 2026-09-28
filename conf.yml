@@ -1,0 +1,35 @@
+info:
+  name: "MCPluginManager"
+  identifier: "mcpluginmanager"
+  description: "Manage your Minecraft Plugins!"
+  flags: ""
+  version: "1.0.0"
+  target: "beta-2026-08"
+  author: "fikriian"
+  icon: ""
+  website: ""
+
+admin:
+  view: "admin/view.blade.php"
+  controller: "admin/controller.php"
+  css: ""
+  wrapper: ""
+
+dashboard:
+  components: "components"
+
+data:
+  directory: ""
+  public: ""
+  console: ""
+
+requests:
+  views: ""
+  app: ""
+  routers:
+    application: ""
+    client: "routes/client.php"
+    web: ""
+
+database:
+  migrations: "migrations"

@@ -1,0 +1,10 @@
+# Learn more about the Components API:
+# https://blueprint.zip/docs/configs/componentsyml
+
+Navigation:
+  Routes:
+    - { Name: "Plugins", Path: "/plugins", Type: "server", Component: "sections/PluginSection", AdminOnly: "false" }
+
+Dashboard:
+  ServerRow:
+    ResourceLimits: "elements/TestElement"
